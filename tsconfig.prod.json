@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": false,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "spec"
+    ]
+}
